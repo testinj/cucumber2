@@ -1,0 +1,133 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Connexion OK au compte client",
+        "description": "",
+        "id": "us2-connexion-à-un-compte;connexion-ok-au-compte-client;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8516033100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "j ouvre l application practice.automationtesting",
+            "match": {
+              "location": "MyStepdefsHome.jOuvreLApplicationPracticeAutomationtesting()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90947300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "j accede a la page My Account",
+            "match": {
+              "location": "MyStepdefsHome.jAccedeALaPageMyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3032172200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "je saisis le login \"Softeam21@yopmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Softeam21@yopmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefsConnexion.jeSaisisLeLogin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90924500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "je saisis le mot de passe \"Softeam@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Softeam@1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefsConnexion.jeSaisisLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5534847500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "je clique sur login",
+            "match": {
+              "location": "MyStepdefsConnexion.jeCliqueSurLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109338200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "je me connecte et la page Dashboard s affiche",
+            "match": {
+              "location": "MyStepdefsConnexion.jeMeConnecteEtLaPageDashboardSAffiche()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REQ_POE1-10"
+          },
+          {
+            "name": "@TEST_POE1-22"
+          },
+          {
+            "name": "@TESTSET_POE1-42"
+          },
+          {
+            "name": "@Groupe1"
+          },
+          {
+            "name": "@TestTNR"
+          }
+        ]
+      }
+    ],
+    "name": "Us2_connexion à un compte",
+    "description": "",
+    "id": "us2-connexion-à-un-compte",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Connexion.feature",
+    "tags": [
+      {
+        "name": "@REQ_POE1-10",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
