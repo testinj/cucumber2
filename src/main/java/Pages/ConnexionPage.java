@@ -43,6 +43,12 @@ public class ConnexionPage extends Hooks {
         WebElement msgConnexion = driver.findElement(By.xpath(xpathmsgConnexion));
         Assert.assertTrue(msgConnexion.isDisplayed());
   }
+  // ajouter message false
+public void connexionko(){
+        WebElement messageConnexionko = driver.findElement(By.className("woocommerce-error"));
+    Assert.assertTrue(messageConnexionko.isDisplayed());
+    System.out.println("mot de passe est incorrect");
 
+}
 
 }

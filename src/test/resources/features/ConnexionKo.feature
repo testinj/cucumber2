@@ -10,16 +10,17 @@ Feature: Us2_connexion à un compte
 	#username ""Email"" incorrect s'affiche
 	#RG4 : Une case à cocher ""Remember me"" permet de garder son login pré-rempli à la prochaine connexion
 
-	#Ce cas de test permet de vérifier si la connexion avec un login et mot de passe redirige à la page d’accueil
-  @TEST_POE1-22 @TESTSET_POE1-42 @Groupe1 @TestTNR
-  Scenario Outline: Connexion OK au compte client
+	#Ce cas de test permet de valider si on saisi un mot de passe erroné la connexion est KO et un message d’erreur s’affiche   ERROR: The password you entered for the
+	#username Email incorrect
+  @TEST_POE1-25 @TESTSET_POE1-42 @Groupe1 @TestTNR
+  Scenario Outline: Connexion KO à un compte client
     Given j ouvre l application practice.automationtesting
     When j accede a la page My Account
     And je saisis le login "<login>"
     And je saisis le mot de passe "<password>"
     And je clique sur login
-    Then je me connecte et la page Dashboard s affiche
+    Then il m affiche un message d'erreur
 
     Examples:
       | login                      | password          |
-      |      Softeam20@yopmail.com |   Softeam@1      |
+      |      Softeam21@yopmail.com |   Softeam@3      |

@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Connexion.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/ConnexionKo.feature");
 formatter.feature({
   "name": "Us2_connexion à un compte",
   "description": "",
@@ -10,12 +10,12 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
-  "name": "Connexion OK au compte client",
+  "name": "Connexion KO à un compte client",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@TEST_POE1-22"
+      "name": "@TEST_POE1-25"
     },
     {
       "name": "@TESTSET_POE1-42"
@@ -49,7 +49,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "name": "je me connecte et la page Dashboard s affiche",
+  "name": "il m affiche un message d\u0027erreur",
   "keyword": "Then "
 });
 formatter.examples({
@@ -66,13 +66,13 @@ formatter.examples({
     {
       "cells": [
         "Softeam21@yopmail.com",
-        "Softeam@1"
+        "Softeam@3"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "Connexion OK au compte client",
+  "name": "Connexion KO à un compte client",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -80,7 +80,7 @@ formatter.scenario({
       "name": "@REQ_POE1-10"
     },
     {
-      "name": "@TEST_POE1-22"
+      "name": "@TEST_POE1-25"
     },
     {
       "name": "@TESTSET_POE1-42"
@@ -124,7 +124,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "je saisis le mot de passe \"Softeam@1\"",
+  "name": "je saisis le mot de passe \"Softeam@3\"",
   "keyword": "And "
 });
 formatter.match({
@@ -144,11 +144,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "je me connecte et la page Dashboard s affiche",
+  "name": "il m affiche un message d\u0027erreur",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "MyStepdefsConnexion.jeMeConnecteEtLaPageDashboardSAffiche()"
+  "location": "MyStepdefsConnexion.ilMAfficheUnMessageDErreur()"
 });
 formatter.result({
   "status": "passed"

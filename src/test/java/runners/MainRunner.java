@@ -14,7 +14,7 @@ import java.security.NoSuchAlgorithmException;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        tags={"@TEST_POE1-22"},
+        tags={"@TEST_POE1-25"},
         plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json","junit:target/surefire-reports/cucumber.xml"},
         features = {"src/test/resources/features"},
         glue ={"stepDefinition"}

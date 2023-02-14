@@ -22,4 +22,4 @@ Feature: Us2_connexion à un compte
 
     Examples:
       | login                      | password          |
-      |      Softeam21@yopmail.com |   Softeam@1      |
+      |      Softeam20@yopmail.com |   Softeam@1      |

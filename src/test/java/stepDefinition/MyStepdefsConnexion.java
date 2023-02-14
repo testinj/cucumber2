@@ -33,4 +33,8 @@ public class MyStepdefsConnexion extends Hooks {
 
     }
 
+    @Then("il m affiche un message d'erreur")
+    public void ilMAfficheUnMessageDErreur() {
+        Connexion.connexionko();
+    }
 }

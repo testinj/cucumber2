@@ -3,19 +3,19 @@
     "line": 2,
     "elements": [
       {
-        "line": 25,
-        "name": "Connexion OK au compte client",
+        "line": 26,
+        "name": "Connexion KO à un compte client",
         "description": "",
-        "id": "us2-connexion-à-un-compte;connexion-ok-au-compte-client;;2",
+        "id": "us2-connexion-à-un-compte;connexion-ko-à-un-compte-client;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 8069714300,
+              "duration": 10123653999,
               "status": "passed"
             },
-            "line": 16,
+            "line": 17,
             "name": "j ouvre l application practice.automationtesting",
             "match": {
               "location": "MyStepdefsHome.jOuvreLApplicationPracticeAutomationtesting()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 243615800,
+              "duration": 63475999,
               "status": "passed"
             },
-            "line": 17,
+            "line": 18,
             "name": "j accede a la page My Account",
             "match": {
               "location": "MyStepdefsHome.jAccedeALaPageMyAccount()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 2398545000,
+              "duration": 3367432899,
               "status": "passed"
             },
-            "line": 18,
+            "line": 19,
             "name": "je saisis le login \"Softeam21@yopmail.com\"",
             "match": {
               "arguments": [
@@ -54,15 +54,15 @@
           },
           {
             "result": {
-              "duration": 160241500,
+              "duration": 82698000,
               "status": "passed"
             },
-            "line": 19,
-            "name": "je saisis le mot de passe \"Softeam@1\"",
+            "line": 20,
+            "name": "je saisis le mot de passe \"Softeam@3\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Softeam@1\"",
+                  "val": "\"Softeam@3\"",
                   "offset": 26
                 }
               ],
@@ -72,10 +72,10 @@
           },
           {
             "result": {
-              "duration": 1478379000,
+              "duration": 1600390101,
               "status": "passed"
             },
-            "line": 20,
+            "line": 21,
             "name": "je clique sur login",
             "match": {
               "location": "MyStepdefsConnexion.jeCliqueSurLogin()"
@@ -84,13 +84,13 @@
           },
           {
             "result": {
-              "duration": 57188000,
+              "duration": 46340401,
               "status": "passed"
             },
-            "line": 21,
-            "name": "je me connecte et la page Dashboard s affiche",
+            "line": 22,
+            "name": "il m affiche un message d\u0027erreur",
             "match": {
-              "location": "MyStepdefsConnexion.jeMeConnecteEtLaPageDashboardSAffiche()"
+              "location": "MyStepdefsConnexion.ilMAfficheUnMessageDErreur()"
             },
             "keyword": "Then "
           }
@@ -100,7 +100,7 @@
             "name": "@REQ_POE1-10"
           },
           {
-            "name": "@TEST_POE1-22"
+            "name": "@TEST_POE1-25"
           },
           {
             "name": "@TESTSET_POE1-42"
@@ -118,7 +118,7 @@
     "description": "",
     "id": "us2-connexion-à-un-compte",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Connexion.feature",
+    "uri": "file:src/test/resources/features/ConnexionKo.feature",
     "tags": [
       {
         "name": "@REQ_POE1-10",
