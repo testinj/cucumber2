@@ -3,6 +3,137 @@
     "line": 2,
     "elements": [
       {
+        "line": 25,
+        "name": "Connexion OK au compte client",
+        "description": "",
+        "id": "us2-connexion-à-un-compte;connexion-ok-au-compte-client;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7232667100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "j ouvre l application practice.automationtesting",
+            "match": {
+              "location": "MyStepdefsHome.jOuvreLApplicationPracticeAutomationtesting()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75871800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "j accede a la page My Account",
+            "match": {
+              "location": "MyStepdefsHome.jAccedeALaPageMyAccount()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2641609300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "je saisis le login \"Softeam20@yopmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Softeam20@yopmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefsConnexion.jeSaisisLeLogin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133418600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "je saisis le mot de passe \"Softeam@1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Softeam@1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepdefsConnexion.jeSaisisLeMotDePasse(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1632570200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "je clique sur login",
+            "match": {
+              "location": "MyStepdefsConnexion.jeCliqueSurLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110473900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "je me connecte et la page Dashboard s affiche",
+            "match": {
+              "location": "MyStepdefsConnexion.jeMeConnecteEtLaPageDashboardSAffiche()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@REQ_POE1-10"
+          },
+          {
+            "name": "@TEST_POE1-22"
+          },
+          {
+            "name": "@TESTSET_POE1-42"
+          },
+          {
+            "name": "@Groupe1"
+          },
+          {
+            "name": "@TestTNR"
+          }
+        ]
+      }
+    ],
+    "name": "Us2_connexion à un compte",
+    "description": "",
+    "id": "us2-connexion-à-un-compte",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Connexion.feature",
+    "tags": [
+      {
+        "name": "@REQ_POE1-10",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
         "line": 26,
         "name": "Connexion KO à un compte client",
         "description": "",
@@ -12,7 +143,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10123653999,
+              "duration": 6950874900,
               "status": "passed"
             },
             "line": 17,
@@ -24,7 +155,7 @@
           },
           {
             "result": {
-              "duration": 63475999,
+              "duration": 56682500,
               "status": "passed"
             },
             "line": 18,
@@ -36,7 +167,7 @@
           },
           {
             "result": {
-              "duration": 3367432899,
+              "duration": 2349438100,
               "status": "passed"
             },
             "line": 19,
@@ -54,7 +185,7 @@
           },
           {
             "result": {
-              "duration": 82698000,
+              "duration": 120890400,
               "status": "passed"
             },
             "line": 20,
@@ -72,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 1600390101,
+              "duration": 1878987600,
               "status": "passed"
             },
             "line": 21,
@@ -84,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 46340401,
+              "duration": 79609200,
               "status": "passed"
             },
             "line": 22,

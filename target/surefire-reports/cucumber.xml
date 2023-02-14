@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.286839">
-    <testcase classname="Us2_connexion à un compte" name="Connexion KO à un compte client" time="15.286839">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.267484">
+    <testcase classname="Us2_connexion à un compte" name="Connexion OK au compte client" time="11.830304">
+        <system-out>
+            <![CDATA[Given j ouvre l application practice.automationtesting......................passed
+When j accede a la page My Account..........................................passed
+And je saisis le login "Softeam20@yopmail.com"..............................passed
+And je saisis le mot de passe "Softeam@1"...................................passed
+And je clique sur login.....................................................passed
+Then je me connecte et la page Dashboard s affiche..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Us2_connexion à un compte" name="Connexion KO à un compte client" time="11.43718">
         <system-out>
             <![CDATA[Given j ouvre l application practice.automationtesting......................passed
 When j accede a la page My Account..........................................passed
