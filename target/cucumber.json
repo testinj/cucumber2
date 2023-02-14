@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7232667100,
+              "duration": 9093536100,
               "status": "passed"
             },
             "line": 16,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 75871800,
+              "duration": 411271300,
               "status": "passed"
             },
             "line": 17,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2641609300,
+              "duration": 2787020800,
               "status": "passed"
             },
             "line": 18,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 133418600,
+              "duration": 76428100,
               "status": "passed"
             },
             "line": 19,
@@ -72,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 1632570200,
+              "duration": 1564754000,
               "status": "passed"
             },
             "line": 20,
@@ -84,8 +84,9 @@
           },
           {
             "result": {
-              "duration": 110473900,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href \u003d\u0027https://practice.automationtesting.in/my-account/customer-logout/\u0027]\"}\n  (Session info: chrome\u003d110.0.5481.97)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027SELATRACH\u0027, ip: \u0027192.168.1.39\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.18\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\\Users\\selat\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57311}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: cfb2a51edbc6e10b0db9b6e0bfe1b1cf\n*** Element info: {Using\u003dxpath, value\u003d//a[@href \u003d\u0027https://practice.automationtesting.in/my-account/customer-logout/\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat Pages.ConnexionPage.AffichDashbord(ConnexionPage.java:43)\r\n\tat stepDefinition.MyStepdefsConnexion.jeMeConnecteEtLaPageDashboardSAffiche(MyStepdefsConnexion.java:32)\r\n\tat ✽.je me connecte et la page Dashboard s affiche(file:src/test/resources/features/Connexion.feature:21)\r\n",
+              "duration": 10055032600,
+              "status": "failed"
             },
             "line": 21,
             "name": "je me connecte et la page Dashboard s affiche",
@@ -143,7 +144,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6950874900,
+              "duration": 13523276300,
               "status": "passed"
             },
             "line": 17,
@@ -155,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 56682500,
+              "duration": 76824600,
               "status": "passed"
             },
             "line": 18,
@@ -167,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 2349438100,
+              "duration": 4409375800,
               "status": "passed"
             },
             "line": 19,
@@ -185,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 120890400,
+              "duration": 114124900,
               "status": "passed"
             },
             "line": 20,
@@ -203,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 1878987600,
+              "duration": 2101775600,
               "status": "passed"
             },
             "line": 21,
@@ -215,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 79609200,
+              "duration": 64061500,
               "status": "passed"
             },
             "line": 22,

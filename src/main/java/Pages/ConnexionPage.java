@@ -11,7 +11,7 @@ public class ConnexionPage extends Hooks {
     String xpathPageAceuil = "//div[@class='col4-2 sub_column sub_column_1-0-1-1 sub_column_post_22']";
     String xpathbtnAcceuil = "//a[@href='https://practice.automationtesting.in/my-account/']";
     String xpathBoutonLogin = "//input[@class='woocommerce-Button button']";
-    String xpathmsgConnexion = "//a[@href='https://practice.automationtesting.in/my-account/']";
+    String xpathmsgConnexion = "//a[@href ='https://practice.automationtesting.in/my-account/customer-logout/']";
 
 
     public void VerificationAcceuil(){
